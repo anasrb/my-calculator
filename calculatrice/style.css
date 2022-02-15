@@ -1,0 +1,238 @@
+/* *{
+    margin-left:40px;
+    margin-top:20px;
+    margin-right:40px;
+    
+} */
+section{
+    background-color: gray;
+    height: 400px;
+    margin:  80px 35% 80px 35%;
+    padding: 15px 10px 10px 10px;
+    border-radius: 5%;
+}
+#memoire{
+    top: 5px;
+    left:20px;
+    display: none;
+}
+div .line {
+    display: grid;
+}
+.line.one{
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    grid-template-rows: auto;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    height: 4em;
+}
+
+.line.two{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px ;
+    margin-bottom: 3px;
+    grid-template-rows: auto;
+    
+}
+.Item0{
+    /* margin-left: 10%; */
+    margin-top: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.Item0 p {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.ItemMplus{
+    background-color: black;
+    padding: 8px 5px 8px 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.ItemMR{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.Itemzero{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.ItemMC{
+    background-color: black;
+    padding: 8px 5px 8px 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.ItemMplus{
+    background-color: black;
+    padding: 8px 5px 8px 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.Item9{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item8{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item7{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item5{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item6{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Item3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 8px 5px 8px 5px;
+}
+.Itemplus{
+    background-color: black;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+.Itemtiret{
+    background-color: black;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+.Itemetoile{
+    background-color: black;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+.Itempoint{
+    background-color: black;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+.Itemegale{
+    background-color: #0f056b;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+.Itemslach{
+    background-color: black;
+    padding: 8px 5px 8px 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.ItemC{
+    background-color: #6e0b14;
+    padding: 8px 5px 8px 5px;
+    color: black;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.line.three{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px ;
+    grid-template-rows: auto;
+    margin-bottom: 3px;
+}
+
+.line.five{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px ;
+    grid-template-rows: auto;
+    margin-bottom: 3px;
+}
+.line.six{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px ;
+    grid-template-rows: auto;
+    margin-bottom: 3px;
+}
+.line.seven{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px ;
+    grid-template-rows: auto;
+}
+
+.color2{
+    color: #6e0b14 ;
+}
+.color3{
+    color: lawngreen;
+}
+
+.btn :hover{
+    color: orangered !important;
+}
+
+@media screen and (max-width: 700px) {
+    section{
+        width: 200px;
+        margin: auto ;
+        margin-top: 40%;
+    }
+}
